@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background-color: bisque;
+}
+.flag_main{
+    height:200px;
+    width: 400px;
+    background-color: green;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
+}
+.flag{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 100%;
+}
+.handel{
+    height: 200px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    top: 100%;
+}
+.leg{
+    height: 50px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%);
+}
